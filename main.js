@@ -28,3 +28,10 @@ function selectTextPiece(component) {
     const item = Math.floor(Math.random()*component.length);
     return component[item];
 };
+const message = selectTextPiece(abstract) +
+                selectTextPiece(theme) +
+                selectTextPiece(lighting) +
+                selectTextPiece(contrast) +
+                selectTextPiece(colors) +
+                selectTextPiece(lens);
+console.log(message);
