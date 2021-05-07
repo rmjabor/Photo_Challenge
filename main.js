@@ -23,3 +23,8 @@ const lens = ['and using a normal lens.',
               'and using an angular lens.',
               'and using a telephoto lens.',
               'and using a lens of your choice.']
+
+function selectTextPiece(component) {
+    const item = Math.floor(Math.random()*component.length);
+    return component[item];
+};
